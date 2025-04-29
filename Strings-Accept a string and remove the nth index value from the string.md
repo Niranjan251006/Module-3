@@ -15,8 +15,26 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-Add Code Here
+```
+Devolped by :NIRANJAN S
+Reg no      :212224040221
+```
+```
+def remove(str): 
+  l=len(str) 
+  a="" 
+  n=int(input()) 
+  for i in range(0,l): 
+    if i==n: 
+      a=a+"" 
+    else: 
+      a=a+str[i] 
+print(a)
+```
 
 ## Output
+![438645734-989484d9-946b-44fb-a5f3-c64be0c6cd2d](https://github.com/user-attachments/assets/2b3b7c53-8f25-47c7-a79d-467538e58c13)
 
 ## Result
+Thus the program has been successfully executed
+
